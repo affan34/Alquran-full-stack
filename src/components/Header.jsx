@@ -6,7 +6,7 @@ import "../styles/Header.css";
 const Header = () => {
   return (
     <div className="header">
-      <img className="header_img" src="src/images/al-quran.avif"/>
+      <img className="header_img" src="https://img.freepik.com/premium-vector/al-quran-al-kareem-islamic-calligraphy_637414-227.jpg"/>
       <h2>Al-Quran Kareem</h2>
      
     </div>
