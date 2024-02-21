@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.footer{
+    z-index:30;
+    height:200px;
+    background-color:white;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color:black;
+    gap:1em;
+    /* border-top:1px dotted black; */
+    -webkit-box-shadow: 0 0 5px 2px black;
+    -moz-box-shadow: 0 0 5px 2px black;
+    box-shadow: 0 0 5px 2px black;
+    flex-direction:column;
+}
+.footer p{
+    text-align:center;
+    padding-left:25em;
+    padding-right:25em;
+    color:#1CB251;
+}
+.footer1 a{
+    text-decoration:none;
+}
+.footer1{
+    color:black
+}
+
+
+.top{
+    cursor:pointer;
+ 
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1400px){
+    .footer p{
+        text-align:center;
+        padding-left:15em;
+        padding-right:15em;
+    }
+    .footer{
+        height:320px;
+    }
+}
+@media screen and (max-width:1000px){
+    .footer p{
+        text-align:center;
+        padding-left:10em;
+        padding-right:10em;
+       
+    }
+    .footer{
+        height:320px;
+    }
+}
+@media screen and (max-width:800px){
+    .footer p{
+        text-align:center;
+        padding-left:5em;
+        padding-right:5em;
+       
+    }
+}
+@media screen and (max-width:650px){
+    .footer p{
+        text-align:center;
+        padding-left:2em;
+        padding-right:2em;
+    }
+    .footer{
+        height:280px;
+    }
+}
+@media screen and (max-width:320px){
+    .footer p{
+        text-align:center;
+        padding-left:2em;
+        padding-right:2em;
+    }
+    .footer{
+        height:320px;
+    }
+}
+@media screen and (max-width:300px){
+    .footer{
+        height:360px;
+    }
+}

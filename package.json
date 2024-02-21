@@ -1,0 +1,29 @@
+{
+  "name": "alquran",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.6.7",
+    "gasp": "^0.0.2",
+    "gsap": "^3.12.5",
+    "preact": "^10.19.3",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.22.0",
+    "react-top-loading-bar": "^2.3.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.1",
+    "vite": "^5.1.0"
+  }
+}
